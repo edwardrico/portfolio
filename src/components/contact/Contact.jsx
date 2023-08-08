@@ -3,9 +3,11 @@ import './contact.css';
 
 const Contact = () => {
     return (
-        <div>
-             Contact 
-        </div>
+       // cree une section id conctact //
+         <section id='contact'>
+            <h1>Contact</h1>  
+            
+            </section>
     );
 };
 

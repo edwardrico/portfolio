@@ -1,3 +1,59 @@
-*{
-    padding: 0;
+#project h1{
+    text-align: center;
 }
+.project-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: -1rem 5rem;
+    padding:1rem 5rem;
+    gap:1rem;
+
+}
+
+.project-item{
+    background:transparent;
+    color: var(--color-light);
+    padding:1rem;
+    border-radius: 2rem;
+    width: 60%;
+    margin:0rem auto;
+    border: 2px solid var(--color-primary-variant);
+    transition: all 400ms ease;
+}
+
+.project-item:hover{
+    border-color: var(--color-bg);
+    background:  var( --color-primary-variant);
+}
+
+
+
+
+h1 {
+
+    color: var(--color-primary);
+}
+
+.project-nav{
+    color: var(--color-primary);
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   gap: 1rem;
+   position: absolute;
+   right:3rem;
+   font-size: 1.5rem;
+   margin-top: 10rem;
+  
+}
+
+.project-nav::after{
+   content: '';
+   display: block;
+   width: 2rem;
+   height: 3rem;
+
+   
+}
+
+
