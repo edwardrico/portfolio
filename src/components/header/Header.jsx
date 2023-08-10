@@ -17,15 +17,17 @@ const Header = () => {
            <div className ="container header_container">
             <h4>Bonjour je suis</h4>
             <h1>Edward Almedo</h1>
-            <h4 className="text-light">Developpeur Fullstack</h4>
+            <h4 className="text-light">Développeur Fullstack</h4>
            
             <Button/>
-            <p> En recherche de "ALTERNACE" a partir de Septembre - Octobre 
-                2023<br/>apres de une arrechisant formation de concepteur de aplication<br/>
-                 web et mobil dans l'ecole Ada tech school c'est le moment de mettre<br/>
-                 tous le concept et connaisent apris pour dans la formation pour ça<br/>
-                 vous trouvaire dans mon pourtafolio tous les information neceressaire<br/>
-                 pour reaussir a trouve cette alternance je compter sur vous. 
+            <p> À la recherche active d'une alternance dès septembre - octobre 2023<br></br>
+             après une immersion totale en tant que concepteur d'applications web<br></br>
+             et mobiles à l'école Ada Tech School, je suis prêt à mettre en pratique<br></br> 
+             toutes mes compétences fraîchement acquises. Mon portfolio contient<br></br>
+             toutes les informations essentielles pour m'aider à décrocher cette <br></br>
+             opportunité d'alternance. Votre soutien est essentiel, alors n'hésitez<br></br>
+             pas à me contacter pour un entretien, je serais ravi de vous en dire<br></br> 
+             plus sur moi. 
             </p>
             <HeaderSocial/>
             

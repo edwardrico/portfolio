@@ -79,19 +79,43 @@
 
 @media screen and (max-width: 768px) {
   .column {
-    flex-basis: 50%; /* Ajuster la largeur pour afficher 2 colonnes côte à côte */
-    margin: 0.5rem; /* Ajustement des marges pour les écrans plus petits */
+    flex-basis: 50%; 
+    margin: 0.5rem; 
+  }
+  .techno-nav {
+    display: none; 
+}
+}
+
+
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      flex-basis: 100%; 
+      margin: 0.5rem 0;
+      margin-top: 1.5rem;
+    }
+    .column h2 {
+      color: var(--color-primary-variant);
+      margin-top: 1.5rem; 
+    }
+  
+    .technologies-list {
+      flex-direction: column;
+      align-items: center; 
+      margin-top: 1rem;
+    }
+  
+    .techno-nav {
+      display: none; 
   }
 }
 
-@media screen and (max-width: 600px) {
-  .techno-nav {
-    right: 1rem; /* Ajustement de la position pour les écrans encore plus petits */
-    top: 10rem;
-    font-size: 1rem;
-  }
+@media screen and (max-width: 1024px) {
   .column {
-    flex-basis: 100%; /* Afficher une seule colonne pour les écrans très petits */
-    margin: 1rem;
+    flex-basis: 50%; 
+    margin: 0.5rem; 
   }
-}
+  .techno-nav {
+    display: none; 
+}}

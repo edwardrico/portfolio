@@ -7,7 +7,7 @@ const Button = () => {
         
 
         <div className='button'>
-            <a href={CV} download className='btn'>Telechager CV</a>
+            <a href={CV} download className='btn'>Téléchargez mon CV</a>
             <a href='#contact' className='btn btn-primary'>Contactez moi</a>
                
         </div>

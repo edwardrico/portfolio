@@ -93,6 +93,9 @@
       margin-top: 1rem; 
       transform: rotate(0deg); 
     }
+    .about-nav {
+      display: none; 
+    }
   }
   
 }

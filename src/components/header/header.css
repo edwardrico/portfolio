@@ -1,7 +1,7 @@
 header {
     
    
-    height: auto; /* Ajustez la hauteur comme vous le souhaitez */
+    height: auto; 
     padding-top: 9rem;
     overflow: hidden;
   }
@@ -56,10 +56,10 @@ header {
 
 .photo {
   background: linear-gradient(var(--color-primary-variant), transparent);
-  width: 70vw; /* Utilisation d'une unité relative pour la largeur */
-  max-width: 22rem; /* Définir une largeur maximale pour éviter qu'elle ne devienne trop grande */
-  height: 40vw; /* Utilisation d'une unité relative pour la hauteur */
-  max-height: 23rem; /* Définir une hauteur maximale pour éviter qu'elle ne devienne trop grande */
+  width: 70vw; 
+  max-width: 22rem; 
+  height: 40vw; 
+  max-height: 23rem; 
   display: flex;
   position: absolute;
   right: calc(50% - 32rem);
@@ -135,23 +135,6 @@ p{
  
     
 }
-
-
-@media screen and (max-width: 768px) {
-  .header_container {
-    padding: 0.9rem 2rem;
-    margin-top: -1rem; /* Ajuster la distance supérieure pour centrer le texte */
-  }
-  .header_social {
-    top: 5rem;
-    left: -2rem;
-  }
-  .scroll_down {
-    display: none;
-  }
-}
-
-
 @media screen and (max-width: 768px) {
   
   
@@ -164,9 +147,7 @@ p{
     left: -1rem; 
   }
   
-  
-
-  .photo {
+    .photo {
     width: 100%; 
     height: auto; 
     max-width: none; 
@@ -177,4 +158,20 @@ p{
     padding: 0;
     z-index: 2; 
 }
+.scroll_down {
+  display: none;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .header_container {
+      padding: 0.9rem 0.5rem; /* Ajustar el padding lateral */
+      margin-top: -2rem; /* Reducir el margen superior */
+  }
+  .button {
+      gap: 0.3rem; /* Reducir el espacio entre los botones */
+  }
+  .nav ul {
+      top: -3.5rem; /* Ajustar la posición superior de la lista */
+  }
 }

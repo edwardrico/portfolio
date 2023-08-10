@@ -1,0 +1,50 @@
+[000000] codo_init
+[000000]   platform: Max OS X
+[000000]   codo_system_init
+[001089]   Compiled against SDL version: 2.0.12
+[001089]   Linked against SDL version:   2.0.12
+[001089]   Current video driver: cocoa
+[001089]   codo_reset_timer
+[001089]   codo_gui_init
+[001089]   codo_keys_init
+[001089]   codo_text_init
+[001090]   codo_video_init
+[001090]   codo_mouse_init
+[001090]   codo_joystick_init
+[001090]   Reading controller mappings: /Users/edwardalmedo/Desktop/Portafolio /sdl_controllers.txt
+[001090]   searching for joysticks
+[001090]     found 0 joysticks
+[001090]   ok
+[001090] ok
+[001101] codo_load_pod: /Applications/PICO-8.app[002379]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer metal:
+   flag[001373]   setting filter to nearest (screen_mode 0  back page width: 128)
+  renderer metal:
+   flags: 0x0000000E ( |  | )
+   texture formats (6): ARGB8888, ABGR8888, YV12, IYUV, 0x3231564e, 0x3132564e
+   max texture size: 16384x16384
+[001379]  desktop size: 1280 800
+[001379] ok[002571] SDL_OpenAudio ok
+[002571]  freq:22050
+ channels:1
+[002571] Built-in audio drivers: 0 coreau[001525] SDL_OpenAudio ok
+[001525]  freq:22050
+ channels:1
+[001525] Built-in audio drivers: 0 coreaudio 1 disk 2 dummy
+[001525] Current audio driver: coreaudio
+[001525] splore_i[005833] loading /Users/edwardalmedo/Desktop/Portafolio /src/components/contact/contact.css
+[009610] window closed (14)
+[009612] codo_exit
+[009612]   cmusic_stop
+[009612]   codo_main_exit
+[009[014896] window closed (14)
+[014896] codo_exit
+[014896]   cmusic_stop
+[014896]   codo_main_exit
+[014898]   codo_config_save
+[014898]   codo_sound_exit
+[014898]   codo_video_exit
+[014904]   codo_joystick_exit
+[014904]   codo_system_exit
+[014905]   codo_items_created: 1288
+[014905] ok
