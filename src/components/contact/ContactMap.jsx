@@ -15,10 +15,10 @@ export default function ContactMap() {
 
   return (
     <GoogleMapReact
+      bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
       defaultCenter={defaultProps.center}
       defaultZoom={defaultProps.zoom}
-    >
-      <AnyReactComponent lat={47.2173} lng={-1.5534} text="Mon localisation" />
+    ><AnyReactComponent lat={47.2173} lng={-1.5534} text="Mon localisation" />
     </GoogleMapReact>
   );
 }
