@@ -141,6 +141,9 @@ p{
     padding: 0.9rem 2rem; 
     margin-top: -5rem; 
   }
+  .header_container h1{
+     font-size: 2rem;
+  }
   
   .header_social {
     right:  -25rem; 
@@ -185,3 +188,4 @@ p{
     top: -3.5rem; 
   }
 }
+
