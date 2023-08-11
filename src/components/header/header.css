@@ -135,43 +135,53 @@ p{
  
     
 }
+/* Styles pour les écrans de tablette */
 @media screen and (max-width: 768px) {
-  
-  
   .header_container {
     padding: 0.9rem 2rem; 
     margin-top: -5rem; 
   }
+  
   .header_social {
-    top: 3rem; 
-    left: -1rem; 
+    right:  -25rem; 
+    margin-top: -7rem;
+  }
+
+  .header-text{
+    margin-top:35rem;
   }
   
-    .photo {
+
+  .photo {
+    display: block;
     width: 100%; 
-    height: auto; 
-    max-width: none; 
-    max-height: none; 
-    right: 0; 
-    margin-top: 0; 
-    border-radius: 0; 
+    height: auto;  
+    right: 0;  
     padding: 0;
-    z-index: 2; 
-}
-.scroll_down {
-  display: none;
-}
+    margin-top: -57rem;
+    
+
+   
+  }
+  
+  .scroll_down {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 600px) {
+
   .header_container {
-      padding: 0.9rem 0.5rem; /* Ajustar el padding lateral */
-      margin-top: -2rem; /* Reducir el margen superior */
-  }
+    padding: 0.9rem 0.5rem; 
+    margin-top: -2rem; 
+  
+  
+  
+  
   .button {
-      gap: 0.3rem; /* Reducir el espacio entre los botones */
+    gap: 0.3rem; 
   }
+  
   .nav ul {
-      top: -3.5rem; /* Ajustar la posición superior de la lista */
+    top: -3.5rem; 
   }
 }

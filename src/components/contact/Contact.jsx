@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./contact.css";
-import ContactMap from "./ContactMap";
 import ContactNav from "./ContactNav";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
-import { FaFacebookMessenger, FaWhatsappSquare,FaLocationDot } from "react-icons/fa";
+import { FaFacebookMessenger, FaWhatsappSquare } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
 
 const Contact = () => {
   const form = useRef();
@@ -49,9 +49,12 @@ const Contact = () => {
               </a>
             </article>
             <article className="contact-option">
-                {/* <FaLocationDot className="contact-logo"/> */}
-                <ContactMap/>
-            </article>
+                 <IoLocationSharp className="contact-logo"/> 
+                 <h4>Nantes-France</h4>
+                 <a href="https://www.google.com/maps/place/Nantes/@47.2383477,-1.7251392,11z/data=!3m1!4b1!4m6!3m5!1s0x4805ee81f0a8aead:0x40d37521e0ded30!8m2!3d47.218371!4d-1.553621!16zL20vMGhxenI?entry=ttu">
+                    Voir sur Google Maps
+                 </a>
+                </article>
        
         </div>
        

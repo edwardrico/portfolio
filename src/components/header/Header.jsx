@@ -20,6 +20,7 @@ const Header = () => {
             <h4 className="text-light">Développeur Fullstack</h4>
            
             <Button/>
+            <div className="header-text">
             <p> À la recherche active d'une alternance dès septembre - octobre 2023<br></br>
              après une immersion totale en tant que concepteur d'applications web<br></br>
              et mobiles à l'école Ada Tech School, je suis prêt à mettre en pratique<br></br> 
@@ -29,6 +30,7 @@ const Header = () => {
              pas à me contacter pour un entretien, je serais ravi de vous en dire<br></br> 
              plus sur moi. 
             </p>
+            </div>
             <HeaderSocial/>
             
             <div className="photo">

@@ -14,6 +14,8 @@ color: var( --color-primary);
     flex-direction: column;
     gap: 0.5rem;
     margin:1rem;
+    margin-left: 8rem;
+    margin-top: 2rem;
   }
   
   
@@ -95,31 +97,56 @@ color: var( --color-primary);
   }
   
   
-@media screen and (min-width: 600px) {
-    .project-container {
-      grid-template-columns: repeat(2, 1fr);
-      margin: 1rem 10rem;
-      padding: 1rem 5rem;
-    }
-  
+/* Styles pour les écrans de tablette */
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .contact-contact-option {
+    margin-left: 0;
+  }
+  
+  .contact-nav {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
 
-  @media screen and (max-width: 599px) {
-    /* Estilos para pantallas de teléfonos */
-    .project-container {
-      margin: -1rem 1rem;
-      padding: 1rem 1rem;
-    }
+/* Styles pour les écrans de téléphone mobile */
+@media screen and (max-width: 599px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
   }
   
-  @media screen and (max-width: 1024px) {
-    /* Estilos para pantallas con un ancho máximo de 1024px */
-    .project-container {
-    grid-template-columns: repeat(1, 1fr);
-      margin: -1rem 2rem;
-      padding: 1rem 2rem;
-    }
-    .project-nav {
-        display: none;
-    }
+  .contact-contact-option {
+    margin: 1rem;
+    align-items: center;
   }
+  
+  .contact-nav {
+    margin-left: 0;
+    justify-content: center;
+    font-size: 1.6rem;
+  }
+  
+  .contact-formulaire {
+    width: 80%;
+    margin: 1rem;
+  }
+  
+  .contact-option {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .message-sent,
+  .error-message {
+    padding: 5rem;
+    margin: 2rem;
+  }
+}
