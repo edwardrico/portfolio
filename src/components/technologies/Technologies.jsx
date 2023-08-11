@@ -14,14 +14,14 @@ const technologiesData = [
   { name: 'Django', logo: <SiDjango />, level: 40, category: 'Back end' },
   { name: 'PHP', logo: <FaPhp />, level: 40, category: 'Back end' },
   { name: 'Node.js', logo: <FaNode />, level: 40, category: 'Back end' },
-  { name: 'JavaScript', logo: <IoLogoJavascript />, level: 75, category: 'Front end' },
-  { name: 'React', logo: <FaReact />, level: 65, category: 'Front end' },
-  { name: 'HTML', logo: <FaHtml5 />, level: 85, category: 'Front end' },
+  { name: 'JavaScript', logo: <IoLogoJavascript />, level: 65, category: 'Front end' },
+  { name: 'React', logo: <FaReact />, level: 60, category: 'Front end' },
+  { name: 'HTML', logo: <FaHtml5 />, level: 80, category: 'Front end' },
   { name: 'CSS', logo: <FaCss3 />, level: 70, category: 'Front end' },
   { name: 'MySQL', logo: <GrMysql />, level: 50, category: 'Base de données' },
   { name: 'Visual Studio Code', logo: <BiLogoVisualStudio />, level: 90, category: 'Outils' },
-  { name: 'PyCharm', logo: <SiPycharm />, level: 75, category: 'Outils' },
-  { name: 'GitHub', logo: <FaGithub />, level: 80, category: 'Outils' },
+  { name: 'PyCharm', logo: <SiPycharm />, level: 70, category: 'Outils' },
+  { name: 'GitHub', logo: <FaGithub />, level: 70, category: 'Outils' },
 ];
 
 const renderTechnologyItem = (tech) => {
