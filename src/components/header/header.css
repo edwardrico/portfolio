@@ -176,6 +176,7 @@ p{
   .header_container {
     padding: 0.9rem 0.5rem; 
     margin-top: -2rem; 
+  }
   
   .button {
     gap: 0.3rem; 
@@ -184,5 +185,5 @@ p{
   .nav ul {
     top: -3.5rem; 
   }
-}
+
 
