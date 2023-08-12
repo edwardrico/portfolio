@@ -61,7 +61,7 @@ const Contact = () => {
 
         {messageSent ? (
           <div className="message-sent">
-            <p>Votre message a été envoyé. Merci de m'avoir contacte! 🙂</p>
+            <p>Votre message a été envoyé. Merci de m'avoir contacté! 🙂</p>
           </div>
         ) : (
           <div className="contact-formulaire">
