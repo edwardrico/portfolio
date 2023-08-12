@@ -35,7 +35,7 @@ const Project = () => {
                 <div className='project-item-img'>
                     <img src={php} alt='red-social'/>
                     <h3>Let's Talk Tech</h3>
-                    <a href='https://github.com/edwardrico/projet-collectif---pico8-les-mousquetaires'className='btn' target='_blank'><FaGithub/></a>
+                    <a href='https://github.com/edwardrico/projet-collectif---reseau-social-php-team_agathe_edward_francois'className='btn' target='_blank'><FaGithub/></a>
 
                     </div>
                 </article>
