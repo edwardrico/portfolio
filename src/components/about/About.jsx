@@ -23,7 +23,6 @@ const About = () => {
             <p>Récemment, ma fascination
             pour le développement web et mobile m'a ouvert une nouvelle voie,
             grâce à une formation à ADA TECH SCHOOL.</p>
-            
             <p>Actuellement en pleine
             phase d'apprentissage, je me plonge avec enthousiasme dans le monde
             du codage et de la conception d'applications, tout en apportant des
