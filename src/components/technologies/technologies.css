@@ -3,6 +3,7 @@
 #technology {
   text-align: center;
   color: var(--color-primary);
+  margin-top: 12rem;
 }
 #technology h1{
   color: var(--color-primary);
@@ -14,7 +15,7 @@
 }
 
 .technology-me {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 .techno-nav {
