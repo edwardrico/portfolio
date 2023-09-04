@@ -72,7 +72,12 @@ const Contact = () => {
                 placeholder="Nom Complet"
                 required
               />
-              <input type="email" name="email" placeholder="Email" required />
+              <input type="email" 
+              name="email" 
+              placeholder="Email" 
+              required 
+              />
+
               <textarea
                 name="message"
                 rows="7"
