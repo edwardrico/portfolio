@@ -1,27 +1,38 @@
 // Technologies.jsx
-import React from 'react';
-import './technologies.css';
-import TechnoNav from './TechnoNav.jsx';
-import { FaPython, FaPhp, FaNode, FaReact, FaHtml5, FaCss3, FaGithub } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io';
-import { GrMysql } from 'react-icons/gr';
-import { BiLogoVisualStudio } from 'react-icons/bi';
-import { SiPycharm,SiDjango } from 'react-icons/si';
-
+import React from "react";
+import "./technologies.css";
+import TechnoNav from "./TechnoNav.jsx";
+import {
+  FaPython,
+  FaPhp,
+  FaNode,
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaGithub,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { GrMysql } from "react-icons/gr";
+import { BiLogoVisualStudio } from "react-icons/bi";
+import { SiPycharm, SiDjango } from "react-icons/si";
 
 const technologiesData = [
-  { name: 'Python', logo: <FaPython />, level: 50, category: 'Back end' },
-  { name: 'Django', logo: <SiDjango />, level: 40, category: 'Back end' },
-  { name: 'PHP', logo: <FaPhp />, level: 40, category: 'Back end' },
-  { name: 'Node.js', logo: <FaNode />, level: 40, category: 'Back end' },
-  { name: 'JavaScript', logo: <IoLogoJavascript />, level: 65, category: 'Front end' },
-  { name: 'React', logo: <FaReact />, level: 60, category: 'Front end' },
-  { name: 'HTML', logo: <FaHtml5 />, level: 80, category: 'Front end' },
-  { name: 'CSS', logo: <FaCss3 />, level: 70, category: 'Front end' },
-  { name: 'MySQL', logo: <GrMysql />, level: 50, category: 'Base de données' },
-  { name: 'Visual Studio Code', logo: <BiLogoVisualStudio />, level: 90, category: 'Outils' },
-  { name: 'PyCharm', logo: <SiPycharm />, level: 70, category: 'Outils' },
-  { name: 'GitHub', logo: <FaGithub />, level: 70, category: 'Outils' },
+  { name: "Python", logo: <FaPython />, category: "Back end" },
+  { name: "Django", logo: <SiDjango />, category: "Back end" },
+  { name: "PHP", logo: <FaPhp />, category: "Back end" },
+  { name: "Node.js", logo: <FaNode />, category: "Back end" },
+  { name: "JavaScript", logo: <IoLogoJavascript />, category: "Front end" },
+  { name: "React", logo: <FaReact />, category: "Front end" },
+  { name: "HTML", logo: <FaHtml5 />, category: "Front end" },
+  { name: "CSS", logo: <FaCss3 />, category: "Front end" },
+  { name: "MySQL", logo: <GrMysql />, category: "Base de données" },
+  {
+    name: "Visual Studio Code",
+    logo: <BiLogoVisualStudio />,
+    category: "Outils",
+  },
+  { name: "PyCharm", logo: <SiPycharm />, category: "Outils" },
+  { name: "GitHub", logo: <FaGithub />, category: "Outils" },
 ];
 
 const renderTechnologyItem = (tech) => {
@@ -32,16 +43,23 @@ const renderTechnologyItem = (tech) => {
         <div className="progress" style={{ width: `${tech.level}%` }}></div>
       </div>
       <p>{tech.name}</p>
-      <div className="percentage">{tech.level}%</div>
     </div>
   );
 };
 
 const Technologies = () => {
-  const backendTech = technologiesData.filter((tech) => tech.category === 'Back end');
-  const frontendTech = technologiesData.filter((tech) => tech.category === 'Front end');
-  const databaseTech = technologiesData.filter((tech) => tech.category === 'Base de données');
-  const toolsTech = technologiesData.filter((tech) => tech.category === 'Outils');
+  const backendTech = technologiesData.filter(
+    (tech) => tech.category === "Back end"
+  );
+  const frontendTech = technologiesData.filter(
+    (tech) => tech.category === "Front end"
+  );
+  const databaseTech = technologiesData.filter(
+    (tech) => tech.category === "Base de données"
+  );
+  const toolsTech = technologiesData.filter(
+    (tech) => tech.category === "Outils"
+  );
 
   return (
     <section id="technology">
