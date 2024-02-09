@@ -6,22 +6,23 @@
     color: var(--color-primary);
 }
 .project-container{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: -1rem 5rem;
-    padding:1rem 5rem;
-    gap:1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); 
+  margin: 5rem;
+  padding: 5rem;
+  gap: 1rem;
 
 }
+
 
 .project-item{
     background:transparent;
     color: var(--color-light);
     padding:1rem;
     border-radius: 2rem;
-    width: 60%;
+    width: 70%;
     margin:0rem auto;
-    border: 2px solid var(--color-primary-variant);
+    border: 1px solid var(--color-primary-variant);
     transition: all 400ms ease;
 }
 
