@@ -15,21 +15,20 @@ const Header = () => {
         
         </div>
            <div className ="container header_container">
-            <h4>Bonjour je suis</h4>
+            <h4>Bonjour, je suis</h4>
             <h1>Edward Almedo</h1>
             <h4 className="text-light">Développeur Full Stack</h4>
-           
+         
             <Button/>
             <div className="header-text">
-            <p> À la recherche active d'une alternance dès javier 2024. Durée <br></br>
-             de 1 an avec un rythme de 4 jours à l'entreprise et 1 jour à l'école. <br></br>
-             Après une immersion totale en tant que concepteur d'applications web<br></br>
-             et mobiles à l'école Ada Tech School, je suis prêt à mettre en pratique<br></br> 
-             toutes mes compétences fraîchement acquises. Mon portfolio contient<br></br>
-             toutes les informations essentielles pour m'aider à décrocher cette <br></br>
-             opportunité d'alternance. Votre soutien est essentiel, alors n'hésitez<br></br>
-             pas à me contacter pour un entretien, je serais ravi de vous en dire<br></br> 
-             plus sur moi. 
+            <p> 
+            Après une immersion totale en tant que concepteur d'applications web et mobiles à l'école Ada<br></br>
+            Tech School, je suis prêt à mettre en pratique toutes mes compétences fraîchement acquises. <br></br> 
+            Mon portfolio regorge d'exemples concrets de mon travail, démontrant ma capacité à créer des <br></br>
+            solutions innovantes et efficaces. Je suis passionné par le développement et toujours avide de <br></br>
+            relever de nouveaux défis. N'hésitez pas à me contacter pour découvrir comment je peux<br></br>
+            contribuer à votre équipe et apporter une valeur ajoutée à vos projets.<br></br> 
+           
             </p>
             </div>
             <HeaderSocial/>
