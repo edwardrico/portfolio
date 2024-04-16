@@ -15,7 +15,7 @@ const Footer = () => {
             </div>
 
         <div className='footer'>
-            <p>© 2023 Edward Almedo. All rights reserved | Propulsé par <a href="https://siteoptimix.com/" target="_blank">Site Optimix</a><br/>
+            <p>© 2023 Edward Almedo. All rights reserved | Propulsé par <a href="https://siteoptimix.com/" target="_blank">SiteOptimix</a><br/>
                 Create with React.js and CSS </p>
             </div>
         </footer>
